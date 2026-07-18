@@ -12,6 +12,7 @@
 <img id="anhMeo" src="botuat.jpg.jfif" alt="Ảnh mèo" width="300" hidden>
 <img id="anhCho" src="manhgay.jpg.jfif" alt="Ảnh chó" width="300" hidden>
 <img id="anhtuong" src="tuonggay.jfif" alt="Ảnh tưởng" width="300" hidden>
+<img id="anhthong" src="thonggay.jpg.jfif" alt="Ảnh thông" width="300" hidden>
 
 <script>
 function kiemTraChua() {
@@ -19,11 +20,13 @@ function kiemTraChua() {
     var oAnhMeo = document.getElementById("anhMeo");
     var oAnhCho = document.getElementById("anhCho");
     var oAnhTuong = document.getElementById("anhtuong");
+    var oAnhThong = document.getElementById("anhthong");
 
     // Mặc định ban đầu là ẩn cả 2 ảnh đi để reset mỗi khi gõ chữ
     oAnhMeo.hidden = true;
     oAnhCho.hidden = true;
     oAnhTuong.hidden = true;
+    oAnhThong.hidden = true;
 
     // Bắt đầu kiểm tra điều kiện:
     if (tenNhap === "Nguyễn Văn Thắng" || tenNhap === "thang" || tenNhap === "bò ngu") {
@@ -34,6 +37,9 @@ function kiemTraChua() {
     }
     else if (tenNhap === "tuong" || tenNhap === "Thái Minh Tường" || tenNhap === "Thái Bá Tưởng") {
         oAnhTuong.hidden = false;
+    }
+    else if (tenNhap === "thong" || tenNhap === "Phan Chính Thông") {
+        oAnhThong.hidden = false;
     }
 }
 </script>

@@ -2,11 +2,15 @@
 
  /* 1. Thay đổi toàn bộ nền và chữ của trang web */
     body {
-        background-color: #1e1e1e; /* Đổi nền thành màu đen xám cực ngầu */
+        background-color: #3D3D3D; /* Đổi nền thành màu đen xám cực ngầu */
         color: #ffffff;            /* Đổi toàn bộ chữ thành màu trắng cho dễ đọc */
         font-family: Arial, sans-serif; /* Đổi font chữ nhìn cho hiện đại, không bị lỗi thời */
         padding: 40px;             /* Tạo khoảng cách thụt vào từ rìa màn hình */
     }
     h2 {
         color: rgb(46, 204, 46); /* Đổi màu chữ của tiêu đề h2 thành màu xanh lá cây */    
+    }
+    li {
+        color: #FFD154;
+        font-family: sans-serif;
     }
